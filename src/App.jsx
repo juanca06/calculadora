@@ -29,7 +29,7 @@ function App() {
     <>
       <div className="contenedor">
         <form>
-          <input type="text" value={resultado}/>
+          <input type="text" value={resultado} style={{background: "#d9ffea", width: "215px", height: "120px", margin:"15px" }}/>
         </form>
 
         <div className="teclado">
